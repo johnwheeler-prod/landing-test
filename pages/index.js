@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Landing Page Test</title>
         <meta name="description" content="Ionic landing page test" />
@@ -12,9 +12,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Your best work. <br/> <span className={styles.orangetitle}>Done together</span>
-        </h1>
+        <div className={styles.nav}>
+          <div className={styles.container}>
+          <Image src="/logo.svg" alt="Landing Logo" width={40} height={32} />
+          </div>
+        </div>
+        <div className={styles.hero}>
+          <h1 className={styles.title}>
+            Your best work. <br/><span className={styles.orangetitle}>Done together.</span>
+          </h1>
+          
+        </div>
 
         <p className={styles.description}>
           Get started by editing{' '}
