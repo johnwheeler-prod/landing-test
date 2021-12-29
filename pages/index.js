@@ -18,10 +18,13 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.hero}>
-          <h1 className={styles.title}>
-            Your best work. <br/><span className={styles.orangetitle}>Done together.</span>
-          </h1>
-          
+          <div className={styles.heroContent}>
+            <h1 className={styles.title}>
+              Your best work. <br/><span className={styles.orangetitle}>Done together.</span>
+            </h1>
+            <p className={styles.subtitle}>Build better a business, faster. Start sharing your work across your company—in realtime.</p>
+            
+          </div>
         </div>
 
         <p className={styles.description}>

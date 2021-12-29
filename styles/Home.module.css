@@ -24,6 +24,10 @@
   background-color: #F9FAFD;
 }
 
+.heroContent {
+  max-width: 514px;
+}
+
 .main {
   min-height: 100vh;
   flex: 1;
@@ -68,11 +72,14 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: #2B2F35;
 }
 
-.title,
-.description {
-  text-align: center;
+.subtitle {
+  color: #535C68;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .description {
