@@ -28,6 +28,12 @@
   max-width: 514px;
 }
 
+.heroMedia {
+  position: absolute;
+  right: 0;
+  margin-right: auto;
+}
+
 .main {
   min-height: 100vh;
   flex: 1;

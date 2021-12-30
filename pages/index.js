@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.nav}>
           <div className={styles.container}>
-          <Image src="/logo.svg" alt="Landing Logo" width={40} height={32} />
+            <Image src="/logo.svg" alt="Landing Logo" width={40} height={32} />
           </div>
         </div>
         <div className={styles.hero}>
@@ -23,7 +23,9 @@ export default function Home() {
               Your best work. <br/><span className={styles.orangetitle}>Done together.</span>
             </h1>
             <p className={styles.subtitle}>Build better a business, faster. Start sharing your work across your company—in realtime.</p>
-            
+          </div>
+          <div className={styles.heroMedia}>
+            <Image src="/logo.svg" alt="Landing Logo" width={400} height={320} />
           </div>
         </div>
 
