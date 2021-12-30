@@ -25,7 +25,7 @@ export default function Home() {
             <p className={styles.subtitle}>Build better a business, faster. Start sharing your work across your company—in realtime.</p>
           </div>
           <div className={styles.heroMedia}>
-            <Image src="/logo.svg" alt="Landing Logo" width={400} height={320} />
+            <Image src="/image.jpg" alt="Detail shot of two people working with slight hazy blue overlay" width={620} height={634} />
           </div>
         </div>
 

@@ -15,7 +15,9 @@
 
 .hero {
   display: flex;
+  position: relative;
   width: 100%;
+  overflow: hidden;
   justify-content: left;
   padding-left: 89px;
   padding-right: 89px;
@@ -31,7 +33,11 @@
 .heroMedia {
   position: absolute;
   right: 0;
-  margin-right: auto;
+  top: 0;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
 }
 
 .main {
