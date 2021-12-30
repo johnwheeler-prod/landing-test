@@ -14,15 +14,31 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.nav}>
           <div className={styles.container}>
-            <Image src="/logo.svg" alt="Landing Logo" width={40} height={32} />
+            <div className={styles.logoNav}>
+              <div className={styles.logo}> 
+                <Image src="/logo.svg" alt="Landing Logo" width={40} height={32} />
+              </div>
+              <a className={styles.navLink}>Product</a>
+              <a className={styles.navLink}>Features</a>
+              <a className={styles.navLink}>Enterprise</a>
+              <a className={styles.navLink}>Company</a>
+            </div>
+            <div className={styles.navRight}>
+              <a className={styles.navLinkSecondary}>Sign in</a>
+              <a className={styles.navLinkSecondary}>Download</a>
+            </div>
           </div>
         </div>
         <div className={styles.hero}>
           <div className={styles.heroContent}>
             <h1 className={styles.title}>
-              Your best work. <br/><span className={styles.orangetitle}>Done together.</span>
+              Your best work. <br/><span className={styles.orangeTitle}>Done together.</span>
             </h1>
             <p className={styles.subtitle}>Build better a business, faster. Start sharing your work across your company—in realtime.</p>
+            <div className={styles.btnContainer}>
+              <button className={styles.btnMain}>Try it free</button>
+              <button className={styles.btnSecondary}>Download</button>
+            </div>
           </div>
           <div className={styles.heroMedia}>
             <Image src="/image.jpg" alt="Detail shot of two people working with slight hazy blue overlay" width={620} height={634} />

@@ -8,6 +8,17 @@ body {
   color: #535C68;
 }
 
+button {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 1.6px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: 0px;
+  font-weight: 700;
+}
+
 a {
   color: inherit;
   text-decoration: none;
