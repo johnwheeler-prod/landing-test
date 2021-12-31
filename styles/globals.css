@@ -21,6 +21,15 @@ h2 {
   margin-bottom: 28px;
 }
 
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #2B2F35;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
 button {
   padding: 20px;
   font-size: 16px;
