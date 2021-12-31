@@ -79,3 +79,25 @@
     line-height: 25.6px;
     font-weight: 400;
 }
+
+.btnMain {
+    background-color: #FD815A;
+    color: #FFFFFF;
+}
+
+.input {
+    display: flex;
+    height: 100%;
+    width:100%;
+    border-radius: 8px;
+    margin-right: 12px;
+    font-size: 16px;
+    line-height: 25.6px;
+    padding: 16px 20px;
+}
+
+.form {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}

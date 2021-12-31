@@ -38,6 +38,12 @@ function Footer() {
                 <div className={styles.subscriptionContainer}>
                     <h2 className={styles.footerLabel}>Subscribe to our newsletter</h2>
                     <p className={styles.footerLink}>Get the latest news, articles, and resources, sent to your inbox every week.</p>
+                    <div>
+                        <form className={styles.form} action="" method="POST">
+                            <input className={styles.input} id="email" type="email" autoComplete="email" placeholder="Email" required />
+                            <button className={styles.btnMain} type="submit">Subscribe</button>
+                        </form>
+                    </div>
                 </div>
             </div>
             <hr/>
