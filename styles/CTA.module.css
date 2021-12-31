@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CTA {
+    background-color: #F9FAFD;
+    padding: 77px 88px;
+    width: 100%;
+}
+
+.orangeText {
+    color: #FD815A;
+}
+
+.btnContainer {
+    display: flex;
+}
+  
+.btnMain {
+    background-color: #FD815A;
+    color: #FFFFFF;
+}
+  
+.btnSecondary {
+    background-color: #E5ECFF;
+    color: #4965CB;
+    margin-left: 16px;
+}
