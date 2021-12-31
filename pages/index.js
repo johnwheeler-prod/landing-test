@@ -40,15 +40,22 @@ export default function Home() {
               <button className={styles.btnSecondary}>Download</button>
             </div>
           </div>
-          <div className={styles.heroMedia}>
-            <Image src="/image.jpg" alt="Detail shot of two people working with slight hazy blue overlay" width={620} height={634} />
+          <div className={styles.mediaContainer}>
+            <div className={styles.heroMedia}>
+              <Image src="/image.jpg" alt="Detail shot of two people working with slight hazy blue overlay" width={620} height={634} />
+            </div>
           </div>
         </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <div className={styles.section}>
+          <div className={styles.centeredContentConstraint}>
+            <div className={styles.featureContainer}>
+              <p className={styles.overline}>Features</p>
+              <h2 className={styles.centeredH2}>A better way to work together</h2>
+              <p className={styles.body2}>Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+            </div>
+          </div>
+        </div>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
