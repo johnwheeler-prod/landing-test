@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  position: absolute;
+  padding: 27px 0;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+}
+
+.logoNav {
+    display: flex;
+    align-items: center;
+}
+  
+.navRight {
+    display: flex;
+}
+
+.navContainer {
+  max-width: 1224px;
+  width: 100%;
+  margin: 0 89px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLink {
+  margin: 0 20px;
+  color: #7B8798;
+  font-size: 15px;
+  line-height: 18.15px;
+  align-items: center;
+  font-weight: 500;
+}
+
+.navLinkSecondary {
+  margin: 0 20px;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 18.15px;
+  align-items: center;
+  font-weight: 600;
+}
