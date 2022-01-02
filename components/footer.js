@@ -2,6 +2,9 @@ import styles from '../styles/Footer.module.css'
 import Image from 'next/image'
 
 function Footer() {
+    const currentDate = new Date();
+    const copyrightDate = currentDate.getFullYear();
+
     return (
         <footer className={styles.footer}>
             <div className={styles.flexTop}>
@@ -49,7 +52,7 @@ function Footer() {
             <hr/>
             <div className={styles.flex}>
                 <div>
-                    <p className={styles.copyright}>© <span id="copyrightYear">2020</span> Acme, Inc. All rights reserved.</p>
+                    <p className={styles.copyright}>© {copyrightDate} Acme, Inc. All rights reserved.</p>
                 </div>
                 <div className={styles.flexBottom}>
                     <a href="" className={styles.iconContainer}>
