@@ -1,4 +1,6 @@
 .footer {
+    display: flex;
+    justify-content: center;
     padding-left: 89px;
     padding-right: 88px;
     padding-top: 66px;
@@ -9,13 +11,16 @@
 
 .flex {
     display: flex;
+    max-width: 1224px;
     justify-content: space-between;
 }
 
 .flexTop {
     display: flex;
+    width: 100%;
     max-width: 1224px;
     margin-bottom: 72px;
+    justify-content: space-between;
 }
 
 .flexBottom {
@@ -37,7 +42,7 @@
 }
 
 .subscriptionContainer {
-    width: 100%
+    width: 100%;
 }
 
 .footerLabel {
@@ -82,8 +87,12 @@
     font-weight: 400;
 }
 
-.btnMain {
+.btnSubscribe {
     background-color: #FD815A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
     color: #FFFFFF;
 }
 
