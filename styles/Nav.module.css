@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  justify-content: center;
   position: absolute;
   padding: 27px 0;
   z-index: 10;

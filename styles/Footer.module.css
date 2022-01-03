@@ -14,11 +14,13 @@
 
 .flexTop {
     display: flex;
+    max-width: 1224px;
     margin-bottom: 72px;
 }
 
 .flexBottom {
     display: flex;
+    max-width: 1224px;
     margin-top: 28.25px;
 }
 

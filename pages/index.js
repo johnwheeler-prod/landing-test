@@ -20,19 +20,21 @@ export default function Home() {
         <Nav></Nav>
         
         <div className={styles.hero}>
-          <div className={styles.heroContent}>
-            <h1 className={styles.title}>
-              Your best work. <br/><span className={styles.orangeTitle}>Done together.</span>
-            </h1>
-            <p className={styles.subtitle}>Build better a business, faster. Start sharing your work across your company—in realtime.</p>
-            <div className={styles.btnContainer}>
-              <button className={styles.btnMain}>Try it free</button>
-              <button className={styles.btnSecondary}>Download</button>
+          <div className={styles.container}>
+            <div className={styles.heroContent}>
+              <h1 className={styles.title}>
+                Your best work. <br/><span className={styles.orangeTitle}>Done together.</span>
+              </h1>
+              <p className={styles.subtitle}>Build better a business, faster. Start sharing your work across your company—in realtime.</p>
+              <div className={styles.btnContainer}>
+                <button className={styles.btnMain}>Try it free</button>
+                <button className={styles.btnSecondary}>Download</button>
+              </div>
             </div>
-          </div>
-          <div className={styles.mediaContainer}>
-            <div className={styles.heroMedia}>
-              <Image src="/image.jpg" alt="Detail shot of two people working with slight hazy blue overlay" width={620} height={634} />
+            <div className={styles.mediaContainer}>
+              <div className={styles.heroMedia}>
+                <Image src="/image.jpg" alt="Detail shot of two people working with slight hazy blue overlay" width={620} height={634} />
+              </div>
             </div>
           </div>
         </div>
