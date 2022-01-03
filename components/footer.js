@@ -50,9 +50,8 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.flex}>
-                    <hr/>
-                </div>
+                
+                <div className={styles.hr}></div>
 
                 <div className={styles.flex}>
                     <div>

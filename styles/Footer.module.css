@@ -112,3 +112,9 @@
     align-items: stretch;
     width: 100%;
 }
+
+.hr {
+    background-color: #4E5767;
+    height: 1px;
+    width: 100%;
+}
