@@ -16,7 +16,7 @@ function Nav() {
           </div>
           <div className={styles.navRight}>
             <a className={styles.navLinkSecondary}>Sign in</a>
-            <a className={styles.navLinkSecondary}>Download</a>
+            <a className={styles.navLinkSecondaryRight}>Download</a>
           </div>
         </div>
       </div>
